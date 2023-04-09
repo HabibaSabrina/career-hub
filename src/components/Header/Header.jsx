@@ -4,7 +4,8 @@ import Banner from '../Banner/Banner';
 
 const Header = () => {
     return (
-        <div className='my-10 mx-44'>
+        <div className='bg-gray-50 p-10'>
+            <div className=' mx-40'>
             <nav className='flex justify-between items-center'>
             <h1 className='text-2xl font-bold'>PositionSeeker</h1>
             <div>
@@ -15,7 +16,7 @@ const Header = () => {
             </div>
             <button className='bg-indigo-400 p-4 rounded-xl text-white font-semibold '>Start Applying</button>
         </nav>
-        <Banner></Banner>
+        </div>
         </div>
     );
 };

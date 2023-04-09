@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "sector":"Account & Finance",
+        "seats":300,
+        "image":"accounts 1.png"
+    },
+    {
+        "id":2,
+        "sector":"Creative Design",
+        "seats":150,
+        "image":"business 1.png"
+    },
+    {
+        "id":3,
+        "sector":"Marketing & Sales",
+        "seats":180,
+        "image":"social-media 1.png"
+    },
+    {
+        "id":4,
+        "sector":"Engineering Job",
+        "seats":224,
+        "image":"chip 1.png"
+    }
+]
