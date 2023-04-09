@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Banner from '../Banner/Banner';
 
 const Header = () => {
     return (
@@ -12,8 +13,9 @@ const Header = () => {
                 <Link className='mx-5' to="/appliedjobs">Applied jobs</Link>
                 <Link className='mx-5' to="/blog">Blog</Link>
             </div>
-            <button className='bg-indigo-500 p-4 rounded-xl text-white font-semibold '>Start Applying</button>
+            <button className='bg-indigo-400 p-4 rounded-xl text-white font-semibold '>Start Applying</button>
         </nav>
+        <Banner></Banner>
         </div>
     );
 };
