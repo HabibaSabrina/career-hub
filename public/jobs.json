@@ -12,7 +12,7 @@
         "responsibility":"Research, design and write new software programs and computer operating systems. evaluate the software and systems that make computers and hardware work. develop existing programs by analyzing and identifying areas for modification.",
         "eduRequirements":"Bachelor of degree completed from any reputed university",
         "experience":"1 Year in this field.",
-        "contact":[{"phone":"01777776667"}, {"email":"facebook@gmail.com"}]
+        "contact":{"phone":"01777776667", "email":"facebook@gmail.com"}
 
     },
     {
@@ -28,7 +28,7 @@
         "responsibility":"Marketing managers promote businesses, services, products, or brands. They develop marketing and pricing strategies, generate new business leads, and oversee marketing department staff. They also manage marketing budgets and analyze trends.",
         "eduRequirements":"Bachelor of degree completed from any reputed university",
         "experience":"2 Years in this field.",
-        "contact":[{"phone":"01897777777"}, {"email":"airbnb@gmail.com"}]
+        "contact":{"phone":"01897777777", "email":"airbnb@gmail.com"}
 
     },
     {
@@ -44,7 +44,7 @@
         "responsibility":"Database Engineers administer, test, and implement computer databases, applying knowledge of database management systems. Coordinate changes to computer databases. Identify, investigate, and resolve database performance issues, database capacity, and database scalability.",
         "eduRequirements":"Bachelor of degree completed from any reputed university",
         "experience":"3-4 Years in this field.",
-        "contact":[{"phone":"01999777777"}, {"email":"google@gmail.com"}]
+        "contact":{"phone":"01999777777", "email":"google@gmail.com"}
 
     },
     {
@@ -60,7 +60,7 @@
         "responsibility":"Senior Validation Engineers plan, create, and execute tests that check if a company's manufacturing equipment produces products that meet performance, quality, and industry-specific safety standards.",
         "eduRequirements":"Bachelor of degree completed from any reputed university",
         "experience":"7 Years in this field.",
-        "contact":[{"phone":"01689977777"}, {"email":"microsoft@gmail.com"}]
+        "contact":{"phone":"01689977777", "email":"microsoft@gmail.com"}
 
     },
     {
@@ -76,7 +76,7 @@
         "responsibility":"Research, design and write new software programs and computer operating systems. evaluate the software and systems that make computers and hardware work. develop existing programs by analyzing and identifying areas for modification.",
         "eduRequirements":"Bachelor of degree completed from any reputed university",
         "experience":"5-6 Years in this field.",
-        "contact":[{"phone":"01677777777"}, {"email":"lenovo@gmail.com"}]
+        "contact":{"phone":"01677777777", "email":"lenovo@gmail.com"}
 
     },
     {
@@ -92,7 +92,7 @@
         "responsibility":"A senior product designer leads a team of product designers in the design strategy and creation of new products. Product designers work in several industries, including manufacturing, software design, and government.",
         "eduRequirements":"Bachelor of degree completed from any reputed university",
         "experience":"5 Years in this field.",
-        "contact":[{"phone":"01447777777"}, {"email":"netflix@gmail.com"}]
+        "contact":{"phone":"01447777777", "email":"netflix@gmail.com"}
 
     },
     {
@@ -108,7 +108,7 @@
         "responsibility":"Research, design and write new software programs and computer operating systems. evaluate the software and systems that make computers and hardware work. develop existing programs by analyzing and identifying areas for modification.",
         "eduRequirements":"Bachelor of degree completed from any reputed university",
         "experience":"No Experience needed",
-        "contact":[{"phone":"01877788777"}, {"email":"samsung@yahoo.com"}]
+        "contact":{"phone":"01877788777", "email":"samsung@yahoo.com"}
 
     },
     {
@@ -124,7 +124,7 @@
         "responsibility":"Research, design and write new software programs and computer operating systems. evaluate the software and systems that make computers and hardware work. develop existing programs by analyzing and identifying areas for modification.",
         "eduRequirements":"Bachelor of degree completed from any reputed university",
         "experience":"3-4 Years in this field.",
-        "contact":[{"phone":"01666777777"}, {"email":"tesla@gmail.com"}]
+        "contact":{"phone":"01666777777", "email":"tesla@gmail.com"}
 
     },
     {
@@ -140,7 +140,7 @@
         "responsibility":"Responsible for the development and validation of products, systems and components. Analyzing and directing recommendations for problem resolution to the expectation of the client. Work to improve the performance and efficiency of existing products. Provide support to new-business and vehicle- launch teams.",
         "eduRequirements":"Bachelor of degree completed from any reputed university",
         "experience":"3 Years in this field.",
-        "contact":[{"phone":"01222777777"}, {"email":"twitter@gmail.com"}]
+        "contact":{"phone":"01222777777", "email":"twitter@gmail.com"}
 
     },
     {
@@ -156,7 +156,7 @@
         "responsibility":"A data analyst is responsible for organizing data related to sales numbers, market research, logistics, linguistics, or other behaviors. They utilize technical expertise to ensure data is accurate and high-quality. Data is then analyzed, designed, and presented in a way that assists individuals, businesses, and organizations make better decisions.",
         "eduRequirements":"Bachelor of degree completed from any reputed university",
         "experience":"2-3 Years in this field.",
-        "contact":[{"phone":"01337777777"}, {"email":"youtube@mail.com"}]
+        "contact":{"phone":"01337777777", "email":"youtube@mail.com"}
 
     }
 ]
