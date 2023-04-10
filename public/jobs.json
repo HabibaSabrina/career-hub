@@ -49,7 +49,7 @@
     },
     {
         "id":"4",
-        "companyLogo":"companies/microsoft.jpg.jpg",
+        "companyLogo":"companies/microsoft.jpg",
         "jobTitle":"Senior Firmware Validation Engineer",
         "companyName":"Microsoft",
         "jobType":"Remote",

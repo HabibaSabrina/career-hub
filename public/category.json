@@ -1,22 +1,24 @@
 [
     {
+        "_id":111,
         "categoryName":"Account & Finance",
         "jobsAvailable":300,
         "categoryLogo":"accounts 1.png"
     },
     {
-        
+        "_id":222,
         "categoryName":"Creative Design",
         "jobsAvailable":150,
         "categoryLogo":"business 1.png"
     },
     {
-
+        "_id":333,
         "categoryName":"Marketing & Sales",
         "jobsAvailable":180,
         "categoryLogo":"social-media 1.png"
     },
     {
+        "_id":444,
         "categoryName":"Engineering Job",
         "jobsAvailable":224,
         "categoryLogo":"chip 1.png"
