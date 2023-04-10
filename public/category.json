@@ -1,26 +1,24 @@
 [
     {
-        "id":1,
-        "sector":"Account & Finance",
-        "seats":300,
-        "image":"accounts 1.png"
+        "categoryName":"Account & Finance",
+        "jobsAvailable":300,
+        "categoryLogo":"accounts 1.png"
     },
     {
-        "id":2,
-        "sector":"Creative Design",
-        "seats":150,
-        "image":"business 1.png"
+        
+        "categoryName":"Creative Design",
+        "jobsAvailable":150,
+        "categoryLogo":"business 1.png"
     },
     {
-        "id":3,
-        "sector":"Marketing & Sales",
-        "seats":180,
-        "image":"social-media 1.png"
+
+        "categoryName":"Marketing & Sales",
+        "jobsAvailable":180,
+        "categoryLogo":"social-media 1.png"
     },
     {
-        "id":4,
-        "sector":"Engineering Job",
-        "seats":224,
-        "image":"chip 1.png"
+        "categoryName":"Engineering Job",
+        "jobsAvailable":224,
+        "categoryLogo":"chip 1.png"
     }
 ]
