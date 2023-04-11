@@ -1,7 +1,13 @@
 // add data to local storage
 const addToDb = id =>{
     let appliedJobsCart = getStoredCart()
-    appliedJobsCart[id] =1
+    const checking = appliedJobsCart[id]
+    if(checking){
+        alert('already applied to this job')
+    }
+    else{
+        appliedJobsCart[id] = 1
+    }
     localStorage.setItem('jobs-cart',JSON.stringify(appliedJobsCart))
     
 }
