@@ -1,14 +1,17 @@
 import React from 'react';
-import { Link, useLoaderData, useParams } from 'react-router-dom';
+import { useLoaderData, useParams } from 'react-router-dom';
 import { MapPinIcon, CurrencyDollarIcon, CalendarDaysIcon, PhoneIcon, EnvelopeIcon } from '@heroicons/react/24/outline'
+import { addToDb } from '../../utilities/fakeDb';
 
 const JobDetails = () => {
     const jobsData= useLoaderData()
     const jobId = useParams()
     const jobDetail =  jobsData.find(detail => detail.id === jobId.id)
-    const {description, responsibility, eduRequirements, experience, contact, salary, jobTitle, location} = jobDetail
-    
-    
+    const {id, description, responsibility, eduRequirements, experience, contact, salary, jobTitle, location} = jobDetail
+    const handleAppliedJobs = id =>{
+        addToDb(id)
+
+    }
     
     return (
         <div>
@@ -32,7 +35,7 @@ const JobDetails = () => {
                     <p className='flex gap-1 my-2'><EnvelopeIcon className="h-6 w-6 text-indigo-500" /><span className='font-semibold'>Email:</span><span className='text-gray-500'>{contact.email}</span></p>
                     <p className='flex gap-1 mb-5'><MapPinIcon className="h-6 w-6 text-indigo-500" /><span className='font-semibold'>Address:</span><span className='text-gray-500'>{location}</span></p>
                 </div>
-                <Link><button className='w-full p-4 rounded-xl mt-5 text-white font-semibold bg-gradient-to-r from-indigo-400 to-violet-600'>Apply Now</button></Link>
+                <button onClick={() => handleAppliedJobs(id)} className='w-full p-4 rounded-xl mt-5 text-white font-semibold bg-gradient-to-r from-indigo-400 to-violet-600'>Apply Now</button>
 
                 </div>
             </div>
