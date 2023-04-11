@@ -1,9 +1,10 @@
 // add data to local storage
+import toast, { Toaster } from 'react-hot-toast';
 const addToDb = id =>{
     let appliedJobsCart = getStoredCart()
     const checking = appliedJobsCart[id]
     if(checking){
-        alert('already applied to this job')
+        toast.error('You have already applied to this job')
     }
     else{
         appliedJobsCart[id] = 1
