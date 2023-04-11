@@ -18,7 +18,7 @@ const FeaturedJob = ({job}) => {
                 <p className='flex text-gray-500'><MapPinIcon className="h-6 w-6 mr-1" /> {location}</p>
                 <p className='flex text-gray-500'><CurrencyDollarIcon className="h-6 w-6 mr-1" /> {salary}</p>
                 </div>
-                <Link to={`/${id}`}><button className=' p-4 rounded-xl mt-5 text-white font-semibold bg-gradient-to-r from-indigo-400 to-violet-600'>View Details</button></Link>
+                <Link to={`/job/${id}`}><button className=' p-4 rounded-xl mt-5 text-white font-semibold bg-gradient-to-r from-indigo-400 to-violet-600'>View Details</button></Link>
 
 
             </div>
