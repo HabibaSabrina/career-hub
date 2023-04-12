@@ -19,7 +19,7 @@ const Home = () => {
                 <h1 className='text-3xl font-bold mt-20'>Featured Jobs</h1>
                 <p className='my-5 text-gray-500'>Explore thousands of job opportunities with all the information you need. Its your future</p>
             </div>
-            <div className='grid grid-cols-2 gap-5 mx-52'>
+            <div className='md:grid md:grid-cols-2 gap-5 mx-10 md:mx-52'>
                 {
                     jobs?.slice(0, seeAll ? 10 : 4).map(job => <FeaturedJob key={job.id} job={job}></FeaturedJob>)
                 }

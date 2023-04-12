@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom';
 const AppliedJobsDetails = ({ appliedJob }) => {
     const { id, companyLogo, jobTitle, companyName, jobType, location, jobTiming, salary } = appliedJob
     return (
-        <div className='border-2 p-5 rounded flex justify-between items-center'>
-            <div className='flex gap-5 items-center'>
+        <div className='border-2 p-5 rounded md:flex justify-between items-center'>
+            <div className='md:flex gap-5 items-center'>
                 <div className='bg-gray-50 px-10 py-20 rounded-xl'>
-                <img className='w-32 h-8 mb-5' src={companyLogo} alt="" />
+                <img className='md:w-32 h-8 mb-5' src={companyLogo} alt="" />
                 </div>
                 <div>
                     <h1 className='text-2xl font-semibold'>{jobTitle}</h1>

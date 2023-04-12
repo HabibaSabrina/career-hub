@@ -15,10 +15,10 @@ const Statistics = () => {
     return (
         <div>
             <h1 className='bg-gray-50 text-center p-20 text-3xl font-bold'>Assignment Marks Statistics</h1>
-            <div className='flex justify-center gap-40 my-20'>
+            <div className='md:flex justify-center gap-40 my-20'>
                 <div>
                     <h1 className='text-3xl font-bold text-center my-10'>Pie Chart</h1>
-                    <PieChart width={600} height={600} className='mx-auto'>
+                <PieChart width={600} height={600} className='mx-auto'>
                         <Pie
                             dataKey="value"
                             startAngle={180}
@@ -32,29 +32,29 @@ const Statistics = () => {
                         />
                         <Tooltip></Tooltip>
                     </PieChart>
-                </div>
-                <div>
-                    <h1 className='text-center text-3xl font-bold my-10'>Area Chart</h1>
-                    <AreaChart className='mx-auto'
-                        width={500}
-                        height={400}
-                        data={marksData}
-                        margin={{
-                            top: 10,
-                            right: 30,
-                            left: 0,
-                            bottom: 0,
-                        }}
-                    >
-                        <CartesianGrid strokeDasharray="3 3" />
-                        <XAxis dataKey="name" />
-                        <YAxis />
-                        <Tooltip />
-                        <Area type="monotone" dataKey="value" stroke="black" fill="#8884d8" />
-                    </AreaChart>
-                </div>
+            </div>
+            <div>
+                <h1 className='text-center text-3xl font-bold my-10'>Area Chart</h1>
+                <AreaChart className='mx-auto'
+                    width={500}
+                    height={400}
+                    data={marksData}
+                    margin={{
+                        top: 10,
+                        right: 30,
+                        left: 0,
+                        bottom: 0,
+                    }}
+                >
+                    <CartesianGrid strokeDasharray="3 3" />
+                    <XAxis dataKey="name" />
+                    <YAxis />
+                    <Tooltip />
+                    <Area type="monotone" dataKey="value" stroke="black" fill="#8884d8" />
+                </AreaChart>
             </div>
         </div>
+        </div >
     );
 };
 

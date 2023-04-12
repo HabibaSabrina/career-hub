@@ -36,7 +36,7 @@ const AppliedJobs = () => {
                     )}
             </div>
            </div>
-            <div className='flex flex-col gap-5 mx-56 mt-44'>
+            <div className='flex flex-col gap-5 md:mx-56 mx-5 mt-44'>
                 {
                     filter.map(appliedJob => <AppliedJobsDetails key={appliedJob.id} appliedJob={appliedJob}></AppliedJobsDetails>)
                 }

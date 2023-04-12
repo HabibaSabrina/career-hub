@@ -18,7 +18,7 @@ const JobDetails = () => {
         <div>
             
             <h1 className='bg-gray-50 text-center p-24 text-3xl font-bold'>Job Details</h1>
-            <div className='grid grid-cols-3 my-20 mx-44 gap-5'>
+            <div className='grid md:grid-cols-3 my-20 md:mx-44 mx-5 gap-5'>
                 <div className='leading-7 col-span-2'>
                     <p className='mb-5'><span className='font-semibold'>Job Description:</span> <span className='text-gray-500'>{description}</span></p>
                     <p className='mb-5'><span className='font-semibold'>Job Responsibility:</span> <span className='text-gray-500'>{responsibility}</span></p>
