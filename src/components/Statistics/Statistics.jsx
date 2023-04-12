@@ -1,5 +1,6 @@
 import React from 'react';
 import { PieChart, Pie, AreaChart, Area, XAxis, YAxis, CartesianGrid, Sector, Cell, ResponsiveContainer, Tooltip } from 'recharts';
+import SectionBanner from '../Banner/SectionBanner';
 const Statistics = () => {
     const marksData = [
         { name: 'Assignment 1', value: 60 },
@@ -14,8 +15,9 @@ const Statistics = () => {
 
     return (
         <div>
-            <h1 className='bg-gray-50 text-center p-20 text-3xl font-bold'>Assignment Marks Statistics</h1>
-            <div className='md:flex justify-center gap-40 my-20'>
+            <SectionBanner></SectionBanner>
+            <h1 className=' text-center -mt-40 text-3xl font-bold'>List of Assignment Marks Statistics</h1>
+            <div className='md:flex justify-center gap-40 mt-48'>
                 <div>
                     <h1 className='text-3xl font-bold text-center my-10'>Pie Chart</h1>
                 <PieChart width={600} height={600} className='mx-auto'>

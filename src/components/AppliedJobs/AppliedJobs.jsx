@@ -3,6 +3,7 @@ import { getStoredCart } from '../../utilities/fakeDb';
 import { useLoaderData } from 'react-router-dom';
 import AppliedJobsDetails from '../AppliedJobsDetails/AppliedJobsDetails';
 import { ChevronDownIcon, ChevronUpIcon } from '@heroicons/react/24/outline'
+import SectionBanner from '../Banner/SectionBanner';
 
 
 const AppliedJobs = () => {
@@ -18,8 +19,10 @@ const AppliedJobs = () => {
     }
     return (
         <div>
-            <h1 className='bg-gray-50 text-center p-20 text-3xl font-bold'>List of Applied Jobs</h1>
-           <div className=' absolute mt-20 right-0 mx-56 bg-gray-50'>
+            <SectionBanner></SectionBanner>
+            <h1 className=' text-center -mt-40 text-3xl font-bold'>List of Applied Jobs</h1>
+
+           <div className=' absolute mt-56 right-0 mx-56 bg-gray-50'>
            <button onClick={() => setOpen(!open)} className=' p-3  w-28 flex justify-between items-center border-2 border-gray-400'>Filter By<span>
                     {
                         open === true ? <ChevronDownIcon className="h-5 w-5" /> : <ChevronUpIcon className="h-5 w-5" />
@@ -36,7 +39,7 @@ const AppliedJobs = () => {
                     )}
             </div>
            </div>
-            <div className='flex flex-col gap-5 md:mx-56 mx-5 mt-44'>
+            <div className='flex flex-col gap-5 md:mx-56 mx-5 mt-80'>
                 {
                     filter.map(appliedJob => <AppliedJobsDetails key={appliedJob.id} appliedJob={appliedJob}></AppliedJobsDetails>)
                 }

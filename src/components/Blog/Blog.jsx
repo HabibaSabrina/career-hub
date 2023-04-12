@@ -1,10 +1,12 @@
 import React from 'react';
+import SectionBanner from '../Banner/SectionBanner';
 
 const Blog = () => {
     return (
         <div>
-            <h1 className='bg-gray-50 text-center p-20 text-3xl font-bold'>Blog</h1>
-            <div className='md:mx-64 mx-5 leading-7 my-20'>
+            <SectionBanner></SectionBanner>
+            <h1 className=' text-center -mt-40 text-3xl font-bold'>Blog</h1>
+            <div className='md:mx-64 mx-5 leading-7 mt-56'>
                 <p className='text-2xl font-bold mt-5 mb-3'><span className='text-violet-600'>1.</span> When should you use context API?</p>
                 <p className='ml-8'>When I need to access data by many components at different nesting levels. I can avoid to pass props through many levels by <b>context API</b>.</p>
                 <p className='text-2xl font-bold mt-5 mb-3'><span className='text-violet-600'>2.</span> What is a custom hook?</p>

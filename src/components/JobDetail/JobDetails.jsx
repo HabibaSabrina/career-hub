@@ -2,7 +2,7 @@ import React from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
 import { MapPinIcon, CurrencyDollarIcon, CalendarDaysIcon, PhoneIcon, EnvelopeIcon } from '@heroicons/react/24/outline'
 import { addToDb } from '../../utilities/fakeDb';
-import SectionBanner from '../sectionBanner/sectionBanner';
+import SectionBanner from '../Banner/SectionBanner';
 
 const JobDetails = () => {
     const jobsData= useLoaderData()
@@ -16,9 +16,9 @@ const JobDetails = () => {
     
     return (
         <div>
-            
-            <h1 className='bg-gray-50 text-center p-24 text-3xl font-bold'>Job Details</h1>
-            <div className='grid md:grid-cols-3 my-20 md:mx-44 mx-5 gap-5'>
+            <SectionBanner></SectionBanner>
+            <h1 className=' text-center -mt-40 text-3xl font-bold'>List of Job Details</h1>
+            <div className='grid md:grid-cols-3 mt-56 md:mx-44 mx-5 gap-5'>
                 <div className='leading-7 col-span-2'>
                     <p className='mb-5'><span className='font-semibold'>Job Description:</span> <span className='text-gray-500'>{description}</span></p>
                     <p className='mb-5'><span className='font-semibold'>Job Responsibility:</span> <span className='text-gray-500'>{responsibility}</span></p>
