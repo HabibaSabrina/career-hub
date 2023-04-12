@@ -39,8 +39,8 @@ const Footer = () => {
                 </div>
             </div>
             <div className='md:flex justify-between mx-10 md:mx-40 border-t-2 border-gray-400 pb-20'>
-            <p className='text-gray-400 mt-5'>@2023 CareerHub. All Rights Reserved</p>
-            <p className='text-gray-400 mt-5'>Powered by CareerHub</p>
+            <p className='text-gray-400 mt-5'>@2023 PositionSeeker. All Rights Reserved</p>
+            <p className='text-gray-400 mt-5'>Powered by PositionSeeker</p>
             </div>
         </div>
     );
