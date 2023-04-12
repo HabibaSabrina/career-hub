@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <div className='bg-black mt-32'>
-            <div className='grid grid-cols-5 gap-10 p-20 mx-20'>
+            <div className='grid md:grid-cols-5 gap-10 p-20 md:mx-20'>
                 <div>
                     <h1 className='text-white text-2xl font-semibold'>PositionSeeker</h1>
                     <p className='text-gray-400 my-5'>There are many variations of passages of Lorem Ipsum , but the majority have suffered alteration in some form.</p>
@@ -38,7 +38,7 @@ const Footer = () => {
                     <p className='text-gray-400'>+1777-978-5570</p>
                 </div>
             </div>
-            <div className='flex justify-between mx-40 border-t-2 border-gray-400 pb-20'>
+            <div className='md:flex justify-between mx-10 md:mx-40 border-t-2 border-gray-400 pb-20'>
             <p className='text-gray-400 mt-5'>@2023 CareerHub. All Rights Reserved</p>
             <p className='text-gray-400 mt-5'>Powered by CareerHub</p>
             </div>

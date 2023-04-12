@@ -16,7 +16,7 @@ const Statistics = () => {
     return (
         <div>
             <SectionBanner></SectionBanner>
-            <h1 className=' text-center -mt-40 text-3xl font-bold'>List of Assignment Marks Statistics</h1>
+            <h1 className=' text-center -mt-40 text-3xl font-bold'> Assignment Marks Statistics</h1>
             <div className='md:flex justify-center gap-40 mt-48'>
                 <div>
                     <h1 className='text-3xl font-bold text-center my-10'>Pie Chart</h1>
